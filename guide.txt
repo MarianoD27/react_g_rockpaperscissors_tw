@@ -1,0 +1,28 @@
+For this entire guide we use class components
+
+it's started with a:
+
+class Game extends Component{
+  constructor(props){
+    super(props)
+    this.state = {x:1, y:2, etc}
+  }
+  logic = (x,x)=>{
+    if(){return 0 or 1 or -1}
+  }
+  decision = (x) =>{
+    choice = [1,2,3]
+    cpux = choice[Math.floor(Math.random()*choice.length)]
+    val = this.logic(x,cpux)
+    if val is blah blahs
+  }
+  render(){
+    const {1,2,3...} = this.state
+    return(
+      buttons and {1},{2},{etc}
+    )
+  }
+}
+
+WELP turns out all that class Component is all depracated we'll do it my way:
+
